@@ -49,7 +49,7 @@ export default function Header() {
 
         {/* Responsive Menu */}
         {isOpen && (
-          <div className="md:hidden absolute top-16 left-0 right-0 bg-gray-800 p-4">
+          <div className="md:hidden absolute top-16 left-0 right-0 bg-gray-800 p-4 transition duration-1000 ease-in-out transform">
             {/* Your menu items go here */}
             <a href="#" className="block text-white py-2">
               Home
